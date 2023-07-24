@@ -1,0 +1,76 @@
+header{
+
+  height: 30%;
+  min-height: 400px;
+  background-size: cover;
+  background-image:url(assets/bg.webp) ;
+}
+.custom-dollar-icon {
+  color:rgb(158, 158, 252); /* Replace 'green' with your desired color */
+}
+
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; /* Ensure the navbar appears above other elements */
+}
+.set{
+  color: aliceblue;
+}
+
+.star-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px; /* Adjust the distance from the navbar */
+}
+.star-icons i {
+  margin: 0 5px;
+}
+.text-center {
+  text-align: center;
+}
+/* Center the container vertically on larger screens */
+@media (min-width: 992px) {
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
+
+footer.container {
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.white-icon {
+  color: #ffffff; /* Set the desired color for the icon (white in this case) */
+}
+.black-icon {
+  color: #020000; /* Set the desired color for the icon (white in this case) */
+}
+
+
+/* Optional: To remove extra padding/margin between icon and text */
+.align-items-center {
+  margin: 0;
+  padding: 0;
+}
+.blue-icon{
+  color: #589ad8;
+}
+.resp{
+  width: auto;
+}
+.yellow{
+  color:yellow;
+}
+.setwidth{
+max-width: 1440px;
+}
